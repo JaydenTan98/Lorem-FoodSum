@@ -1,0 +1,11 @@
+.sentence-select-container {
+    padding: 12px;
+    font-family: 'Times New Roman';
+}
+
+@media (max-width: 768px) {
+    .sentence-select-container {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}

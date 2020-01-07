@@ -1,0 +1,36 @@
+.sidebar-container {
+    background-color: white;
+    color: #202e3a;
+    box-shadow: 0 0 20px 0 rgba(50,50,50,0.1);
+}
+
+#sidebar-header {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: 2.5px;
+    padding: 12px;
+    background-color: rgb(192, 132, 19);
+    margin-bottom: 13px;
+    color: pink;
+}
+
+#generate-button {
+    background-color: rgba( 59,143, 65,1);
+    border-color: rgba( 59,143, 65,1);
+    border-radius: 0px;
+    margin: 12px;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    #sidebar-header {
+        margin-bottom: 8px;
+    }
+
+    #generate-button {
+        display: inline-block;
+        width: 91%;
+    }
+}
