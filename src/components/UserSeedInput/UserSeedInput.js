@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { FormGroup, ControlLabel, FormControl } from 'react-bootstrap';
-import './ParagraphSelect.css';
+import './UserSeedInput.css';
 
-class ParagraphSelectComponent extends Component {
+class UserSeedInputComponent extends Component {
   render() {
     return (
-        <div className="paragraph-select-container">
+        <div className="userseed-input-container">
             <FormGroup controlId="formControlsSelect">
-             <ControlLabel>Paragraphs</ControlLabel>
-             <FormControl componentClass="select"value={this.props.numParagraphs}  onChange={this.props.updateParagraphs}>
+             <ControlLabel>User's Seed</ControlLabel>
+             <FormControl componentClass="select" value={this.props.userSeed} onChange={this.props.updateSeed}>
                <option value="1">1</option>
                <option value="2">2</option>
                <option value="3">3</option>
@@ -17,6 +17,8 @@ class ParagraphSelectComponent extends Component {
                <option value="6">6</option>
                <option value="7">7</option>
                <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
              </FormControl>
             </FormGroup>
         </div>
@@ -25,4 +27,4 @@ class ParagraphSelectComponent extends Component {
   }
 }
 
-export default ParagraphSelectComponent;
+export default UserSeedInputComponent;
